@@ -1,0 +1,49 @@
+.App {
+   background-color: whitesmoke;
+}
+
+.header{
+   width: 100%;
+   height: 15vh;
+   background-color: black;
+   color: white;
+   padding: 30px;
+   box-sizing: border-box;
+   font-size: 20px;
+}
+
+
+.some{
+   color: red;
+}
+
+.nav-bar{
+   width: 50%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.nav-bar a{
+   text-decoration: none;
+   color: white;
+}
+
+.body{
+   width: 90%;
+   margin: auto;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   /* align-items: center; */
+}
+
+.body p{
+   width: 60%;
+   font-size: 20px;
+}
+
+.body img{
+   width: 400px;
+   border-radius: 10px;
+}
