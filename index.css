@@ -97,3 +97,47 @@ footer{
    font-size: 20px;
    padding-top: 10px;
 }
+
+
+
+/* Contact.html */
+
+.form{
+   width: 40%;
+   height: 50vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+
+}
+
+.form div{
+   height: 10vh;
+   display: flex;
+   flex-direction: column;
+}
+
+.form label{
+   font-size: 20px;
+}
+
+.form input{
+   height: 40px;
+}
+.form textarea{
+   height: 200px;
+}
+
+.form button{
+   height: 40px;
+   font-size: 20px;
+}
+
+.container-1{
+   width: 80%;
+   margin: auto;
+   padding-top: 40px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
