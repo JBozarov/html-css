@@ -5,13 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="./index.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Poiret+One&display=swap" rel="stylesheet">
 </head>
 <body>
-   <a href="./index.html"><h3>Go back</h3></a>
-   <a href="./gallery.html"><h3>Go to Galery</h3></a>
+   <header class="header">
+      <nav class="nav-bar" >
+         <a href="./index.html" ><h3>About</h3></a>
+         <a href="./gallery.html" ><h3>Gallery</h3></a>
+         <a href="./contact.html" ><h3>Contact Me</h3></a>
+      </nav>
+   </header>
     
-   <h1 style="text-align: center;" >Contact me</h1>
-   <hr>
+   <h1 class="I-would-love-text">I would love to hear from you. Contact me to find out what I can do for you! </h1>
    <div class="container-1">
    <form class="form" >
       <div>
@@ -23,17 +30,32 @@
          <input type='text' ></input>
       </div>
       <div>
+         <label for='last_name'>Subject </label>
+         <input type='text' ></input>
+      </div>
+      <div>
          <label>Message</label>
          <textarea></textarea>
       </div>
       <button>Submit</button>
    </form>
 
-   <div class="address">
-      <h1>Address: 123 Main Street, Philadelphia, PA 19116</h1>
-      <h1>Tel: 123-456-7890</h1>
-      <h1>Email: someemail@gmail.com</h1>
-      <i class="fab fa-linkedin-in"></i>
+   <div class="contact-container">
+      <p class="contact-me" >Contact me here</p>
+      <div>
+         <p class="address add-1" >123 Main Street,</p>
+         <p class="address add-1" >Philadelphia, PA 19116</p>
+         <p class="address add-1" >United States</p>
+      </div>
+      <p class="address" >Tel: 123-456-7890</p>
+      <div class="icons" >
+         <a href="https://www.linkedin.com/in/john-bozarov/"><img src="./assets/linkedin.png"/></a>
+         <a href="https://github.com/JBozarov"><img src="./assets/github.svg"/></a>
+         <!-- <a href="https://goo.gl/maps/5GtbQGc58vd5DLvs7"><img src="./assets/address.png"> </img></a> -->
+         <a href='mailto:jon.bozarov@gmail.com'><img src="./assets/email.webp"/></a>
+         <a href='tel:1-215-388-7001'><img src="./assets/phone.png"/></a>
+      </div>
+      <a href='https://goo.gl/maps/k3HkGMTQCbiVRqBp7'><img id="phila-img" src="./assets/phila.png"> </img></a>
    </div>
 
    </div>
